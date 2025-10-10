@@ -3,7 +3,7 @@ pipeline {
    stages {
      stage("cloning") {
          steps {
-             echo "cloning repo is completed "
+             echo "cloning repository is completed sucessfully "
             }
       }
       stage("program execution ") {
