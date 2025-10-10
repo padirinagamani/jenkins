@@ -6,7 +6,7 @@ pipeline {
              echo "cloning repo is completed "
             }
       }
-      stage("program execution") {
+      stage("program execution ") {
          steps {
              bat 'java Sample.java'
            }
